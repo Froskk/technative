@@ -5,6 +5,8 @@ import { ThemeProvider } from "styled-components";
 import { GlobalStyles } from "globalStyles";
 import { theme } from "theme";
 
+import { Breakdown } from "features/breakdown/breakdown";
+
 const Main = styled.main`
   position: absolute;
   top: 50%;
@@ -17,9 +19,9 @@ const App = () => (
     <GlobalStyles />
     <Main>
       <header>
-        <h1>GSAP / React Template</h1>
-        <p>Stuff goes here.</p>
+        <h1>Top of the pack score breakdown</h1>
       </header>
+      <Breakdown />
     </Main>
   </ThemeProvider>
 );

@@ -1,14 +1,14 @@
 import { createGlobalStyle } from "styled-components";
 
 export const GlobalStyles = createGlobalStyle`
-  *, *:before, *:after {
+  /* *, *:before, *:after {
     box-sizing: border-box;
     text-rendering: optimizeLegibility;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     padding: 0;
     margin: 0;
-  }
+  } */
 
   body {
     font-family: 'Beaufort', sans-serif, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;

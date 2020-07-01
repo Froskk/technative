@@ -6,6 +6,11 @@ const theme = {
     dark: "hsl(200, 10%, 10%)",
     light: "hsl(200, 100%, 90%)",
     accent: "hsl(200, 100%, 75%)",
+    table: {
+      dark: "hsl(0, 0%, 0%)",
+      light: "hsl(0, 0%, 16%)",
+      accent: "hsl(4, 77%, 48%)",
+    },
   },
   size: {
     s: "0.8rem",
