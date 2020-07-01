@@ -1,5 +1,11 @@
 import styled from "styled-components";
 
+type Props = {
+  height: number;
+  width: number;
+  ref: any;
+};
+
 export const Container = styled.section`
   position: relative;
 `;
@@ -79,4 +85,15 @@ export const Driver = styled(RowItem)`
 export const Score = styled(RowItem)`
   width: 6rem;
   text-align: center;
+`;
+
+export const Canvas = styled.svg<Props>`
+  position: absolute;
+  top: 50px;
+  left: 0;
+  width: ${(p) => p.width};
+  height: ${(p) => p.height};
+
+  z-index: 0;
+  visibility: hidden;
 `;

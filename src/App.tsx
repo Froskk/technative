@@ -19,7 +19,7 @@ const App = () => (
     <GlobalStyles />
     <Main>
       <header>
-        <h1>Top of the pack score breakdown</h1>
+        <h1>Fight for the top - Breakdown</h1>
       </header>
       <Breakdown />
     </Main>

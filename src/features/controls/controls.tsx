@@ -22,6 +22,7 @@ const Button = styled.button`
 export const Controls = ({ timeline }: any) => {
   return (
     <Container>
+      <Button onClick={() => timeline.play()}>Play</Button>
       <Button onClick={() => timeline.resume()}>Resume</Button>
       <Button onClick={() => timeline.pause()}>Pause</Button>
       <Button onClick={() => timeline.reverse()}>Reverse</Button>
